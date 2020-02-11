@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AF012F0A1B81A154D296D44 /* Pods_RydeSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A396BEB7125C601FFF8B636A /* Pods_RydeSplit.framework */; };
+		FA0CC5B623D98D2800B706FC /* Feature03_ScheduleRide.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5B323D98D2800B706FC /* Feature03_ScheduleRide.png */; };
+		FA0CC5B723D98D2800B706FC /* Feature01_Carpool.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5B423D98D2800B706FC /* Feature01_Carpool.png */; };
+		FA0CC5B823D98D2800B706FC /* Feature02_SplitCost.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5B523D98D2800B706FC /* Feature02_SplitCost.png */; };
+		FA0CC5BC23D98EA400B706FC /* congrats.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5BB23D98EA400B706FC /* congrats.png */; };
+		FA0CC5BE23D9935F00B706FC /* png-check-3.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5BD23D9935F00B706FC /* png-check-3.png */; };
+		FA0CC5C123D9953F00B706FC /* LoginByEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC5C023D9953F00B706FC /* LoginByEmailViewController.swift */; };
+		FA0CC5C323D9955F00B706FC /* LoginBySocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC5C223D9955F00B706FC /* LoginBySocialViewController.swift */; };
+		FA0CC5C523D9959F00B706FC /* LoginConfirmInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC5C423D9959F00B706FC /* LoginConfirmInfoViewController.swift */; };
+		FA0CC5CD23D9965F00B706FC /* EmailLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC5CC23D9965F00B706FC /* EmailLoginPage.swift */; };
+		FA0CC5CF23D9967800B706FC /* SocialLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC5CE23D9967800B706FC /* SocialLoginPage.swift */; };
+		FA0CC5D123D9968B00B706FC /* LoginInfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC5D023D9968B00B706FC /* LoginInfoPage.swift */; };
+		FA0CC5D523D9975900B706FC /* EmailLoginPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5D223D9975900B706FC /* EmailLoginPage.xib */; };
+		FA0CC5D623D9975900B706FC /* LoginInfoPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5D323D9975900B706FC /* LoginInfoPage.xib */; };
+		FA0CC5D723D9975900B706FC /* SocialLoginPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5D423D9975900B706FC /* SocialLoginPage.xib */; };
+		FA0CC5DB23D99A2B00B706FC /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5D823D99A2B00B706FC /* Twitter.png */; };
+		FA0CC5DC23D99A2B00B706FC /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5D923D99A2B00B706FC /* Facebook.png */; };
+		FA0CC5DD23D99A2B00B706FC /* Google.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC5DA23D99A2B00B706FC /* Google.png */; };
+		FA0CC60723DBF59400B706FC /* SettingPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0CC60623DBF59400B706FC /* SettingPage.xib */; };
+		FA0CC60923DBF5CA00B706FC /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC60823DBF5CA00B706FC /* SettingPage.swift */; };
+		FA0CC60B23DBF6FF00B706FC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CC60A23DBF6FF00B706FC /* SettingViewController.swift */; };
+		FA1C63C523E545FA0033BE2A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C63C423E545FA0033BE2A /* SessionManager.swift */; };
+		FA1C63C723E550950033BE2A /* SocialLoginPageTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1C63C623E550950033BE2A /* SocialLoginPageTest.xib */; };
+		FA1C63C923E550CA0033BE2A /* SocialLoginPageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C63C823E550CA0033BE2A /* SocialLoginPageTest.swift */; };
+		FA247DBA23B1A2FD00D72012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA247DB923B1A2FD00D72012 /* AppDelegate.swift */; };
+		FA247DBC23B1A2FD00D72012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA247DBB23B1A2FD00D72012 /* ViewController.swift */; };
+		FA247DBF23B1A2FD00D72012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA247DBD23B1A2FD00D72012 /* Main.storyboard */; };
+		FA247DC223B1A2FD00D72012 /* RydeSplit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA247DC023B1A2FD00D72012 /* RydeSplit.xcdatamodeld */; };
+		FA247DC423B1A2FF00D72012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA247DC323B1A2FF00D72012 /* Assets.xcassets */; };
+		FA247DC723B1A2FF00D72012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA247DC523B1A2FF00D72012 /* LaunchScreen.storyboard */; };
+		FA247DD223B1A2FF00D72012 /* RydeSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA247DD123B1A2FF00D72012 /* RydeSplitTests.swift */; };
+		FA247DDD23B1A2FF00D72012 /* RydeSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA247DDC23B1A2FF00D72012 /* RydeSplitUITests.swift */; };
+		FA247DEF23B5A88C00D72012 /* RYLOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = FA247DEE23B5A88C00D72012 /* RYLOGO.png */; };
+		FA247DF823B6D91A00D72012 /* Features.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA247DF723B6D91A00D72012 /* Features.xib */; };
+		FA247DFA23B6DC4D00D72012 /* illustration.png in Resources */ = {isa = PBXBuildFile; fileRef = FA247DF923B6DC4D00D72012 /* illustration.png */; };
+		FA247DFC23B6DE7100D72012 /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA247DFB23B6DE7100D72012 /* Features.swift */; };
+		FA247DFE23B6DFE200D72012 /* SignupStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA247DFD23B6DFE200D72012 /* SignupStartViewController.swift */; };
+		FA27A76323DE2F4E00EC590C /* shark.png in Resources */ = {isa = PBXBuildFile; fileRef = FA27A76223DE2F4E00EC590C /* shark.png */; };
+		FA27A76523DE307E00EC590C /* SmilyShark.png in Resources */ = {isa = PBXBuildFile; fileRef = FA27A76423DE307E00EC590C /* SmilyShark.png */; };
+		FA27A76923DE478700EC590C /* ghost02.png in Resources */ = {isa = PBXBuildFile; fileRef = FA27A76623DE478600EC590C /* ghost02.png */; };
+		FA27A76A23DE478700EC590C /* ghost01.png in Resources */ = {isa = PBXBuildFile; fileRef = FA27A76723DE478600EC590C /* ghost01.png */; };
+		FA27A76B23DE478700EC590C /* ghost03.png in Resources */ = {isa = PBXBuildFile; fileRef = FA27A76823DE478700EC590C /* ghost03.png */; };
+		FA27A76F23DE4C8600EC590C /* soundscrate-evil-witch-laugh-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA27A76D23DE4C8600EC590C /* soundscrate-evil-witch-laugh-02.mp3 */; };
+		FA27A77023DE4C8600EC590C /* soundscrate-evil-laugh-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA27A76E23DE4C8600EC590C /* soundscrate-evil-laugh-01.mp3 */; };
+		FA27A77223DE4F8100EC590C /* soundscrate-evil-witch-laugh-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA27A77123DE4F8100EC590C /* soundscrate-evil-witch-laugh-01.mp3 */; };
+		FA27A79523E243FC00EC590C /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA27A79423E243FC00EC590C /* Auth0.plist */; };
+		FA41834A23D514EB0003262E /* coloringData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA41834823D514EB0003262E /* coloringData.plist */; };
+		FA41834B23D514EB0003262E /* fontingData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA41834923D514EB0003262E /* fontingData.plist */; };
+		FA41835623D5B78C0003262E /* inter in Resources */ = {isa = PBXBuildFile; fileRef = FA41835523D5B78B0003262E /* inter */; };
+		FA41835823D5BB0E0003262E /* New_Hero in Resources */ = {isa = PBXBuildFile; fileRef = FA41835723D5BB0E0003262E /* New_Hero */; };
+		FA4F9AB523D69C27002DD1FC /* WelcomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9AB423D69C27002DD1FC /* WelcomePage.xib */; };
+		FA4F9AB923D6B429002DD1FC /* canada-flag-small.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9AB823D6B429002DD1FC /* canada-flag-small.png */; };
+		FA4F9ABB23D6B8B6002DD1FC /* SignupWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9ABA23D6B8B6002DD1FC /* SignupWelcomeViewController.swift */; };
+		FA4F9ABD23D6B8F5002DD1FC /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9ABC23D6B8F5002DD1FC /* WelcomePage.swift */; };
+		FA4F9ABF23D6C8CF002DD1FC /* SignupVerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9ABE23D6C8CF002DD1FC /* SignupVerifyViewController.swift */; };
+		FA4F9AC223D6D163002DD1FC /* VerifyPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9AC023D6D162002DD1FC /* VerifyPage.xib */; };
+		FA4F9AC323D6D163002DD1FC /* InfoPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9AC123D6D163002DD1FC /* InfoPage.xib */; };
+		FA4F9AC623D6DD95002DD1FC /* CongratPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9AC423D6DD95002DD1FC /* CongratPage.xib */; };
+		FA4F9AC723D6DD95002DD1FC /* PassPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4F9AC523D6DD95002DD1FC /* PassPage.xib */; };
+		FA4F9ACB23D96AE1002DD1FC /* VerifyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9ACA23D96AE1002DD1FC /* VerifyPage.swift */; };
+		FA4F9ACD23D96AFE002DD1FC /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9ACC23D96AFE002DD1FC /* InfoPage.swift */; };
+		FA4F9ACF23D96B1C002DD1FC /* CongratPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9ACE23D96B1C002DD1FC /* CongratPage.swift */; };
+		FA4F9AD123D96B2A002DD1FC /* PassPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9AD023D96B2A002DD1FC /* PassPage.swift */; };
+		FA4F9AD523D96C9D002DD1FC /* SignupInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9AD423D96C9D002DD1FC /* SignupInfoViewController.swift */; };
+		FA4F9AD723D96CB3002DD1FC /* SignupPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9AD623D96CB3002DD1FC /* SignupPassViewController.swift */; };
+		FA4F9AD923D96CCF002DD1FC /* SignupCongratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9AD823D96CCF002DD1FC /* SignupCongratViewController.swift */; };
+		FA7F7F7E23C3EE6900CDBD95 /* languagingData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7F7723C3EE6800CDBD95 /* languagingData.plist */; };
+		FA9D21F123EF3F5F00E7467B /* Auth0.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D21F023EF3F5F00E7467B /* Auth0.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA247DCE23B1A2FF00D72012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA247DAE23B1A2FD00D72012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA247DB523B1A2FD00D72012;
+			remoteInfo = RydeSplit;
+		};
+		FA247DD923B1A2FF00D72012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA247DAE23B1A2FD00D72012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA247DB523B1A2FD00D72012;
+			remoteInfo = RydeSplit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BA995A37B75DF9C5F7DB8DD /* Pods-RydeSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RydeSplit.debug.xcconfig"; path = "Target Support Files/Pods-RydeSplit/Pods-RydeSplit.debug.xcconfig"; sourceTree = "<group>"; };
+		7A25FB09773EE734EF5FF62C /* Pods-RydeSplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RydeSplit.release.xcconfig"; path = "Target Support Files/Pods-RydeSplit/Pods-RydeSplit.release.xcconfig"; sourceTree = "<group>"; };
+		A396BEB7125C601FFF8B636A /* Pods_RydeSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RydeSplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0CC5B323D98D2800B706FC /* Feature03_ScheduleRide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feature03_ScheduleRide.png; sourceTree = "<group>"; };
+		FA0CC5B423D98D2800B706FC /* Feature01_Carpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feature01_Carpool.png; sourceTree = "<group>"; };
+		FA0CC5B523D98D2800B706FC /* Feature02_SplitCost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feature02_SplitCost.png; sourceTree = "<group>"; };
+		FA0CC5BB23D98EA400B706FC /* congrats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congrats.png; sourceTree = "<group>"; };
+		FA0CC5BD23D9935F00B706FC /* png-check-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "png-check-3.png"; sourceTree = "<group>"; };
+		FA0CC5C023D9953F00B706FC /* LoginByEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginByEmailViewController.swift; sourceTree = "<group>"; };
+		FA0CC5C223D9955F00B706FC /* LoginBySocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBySocialViewController.swift; sourceTree = "<group>"; };
+		FA0CC5C423D9959F00B706FC /* LoginConfirmInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfirmInfoViewController.swift; sourceTree = "<group>"; };
+		FA0CC5CC23D9965F00B706FC /* EmailLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginPage.swift; sourceTree = "<group>"; };
+		FA0CC5CE23D9967800B706FC /* SocialLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginPage.swift; sourceTree = "<group>"; };
+		FA0CC5D023D9968B00B706FC /* LoginInfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfoPage.swift; sourceTree = "<group>"; };
+		FA0CC5D223D9975900B706FC /* EmailLoginPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmailLoginPage.xib; sourceTree = "<group>"; };
+		FA0CC5D323D9975900B706FC /* LoginInfoPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginInfoPage.xib; sourceTree = "<group>"; };
+		FA0CC5D423D9975900B706FC /* SocialLoginPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialLoginPage.xib; sourceTree = "<group>"; };
+		FA0CC5D823D99A2B00B706FC /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		FA0CC5D923D99A2B00B706FC /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		FA0CC5DA23D99A2B00B706FC /* Google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Google.png; sourceTree = "<group>"; };
+		FA0CC60623DBF59400B706FC /* SettingPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingPage.xib; sourceTree = "<group>"; };
+		FA0CC60823DBF5CA00B706FC /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
+		FA0CC60A23DBF6FF00B706FC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		FA1C63C423E545FA0033BE2A /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		FA1C63C623E550950033BE2A /* SocialLoginPageTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialLoginPageTest.xib; sourceTree = "<group>"; };
+		FA1C63C823E550CA0033BE2A /* SocialLoginPageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginPageTest.swift; sourceTree = "<group>"; };
+		FA247DB623B1A2FD00D72012 /* RydeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RydeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA247DB923B1A2FD00D72012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA247DBB23B1A2FD00D72012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA247DBE23B1A2FD00D72012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA247DC123B1A2FD00D72012 /* RydeSplit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RydeSplit.xcdatamodel; sourceTree = "<group>"; };
+		FA247DC323B1A2FF00D72012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA247DC623B1A2FF00D72012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA247DC823B1A2FF00D72012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA247DCD23B1A2FF00D72012 /* RydeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RydeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA247DD123B1A2FF00D72012 /* RydeSplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RydeSplitTests.swift; sourceTree = "<group>"; };
+		FA247DD323B1A2FF00D72012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA247DD823B1A2FF00D72012 /* RydeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RydeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA247DDC23B1A2FF00D72012 /* RydeSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RydeSplitUITests.swift; sourceTree = "<group>"; };
+		FA247DDE23B1A2FF00D72012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA247DEE23B5A88C00D72012 /* RYLOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RYLOGO.png; sourceTree = "<group>"; };
+		FA247DF723B6D91A00D72012 /* Features.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Features.xib; sourceTree = "<group>"; };
+		FA247DF923B6DC4D00D72012 /* illustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = illustration.png; sourceTree = "<group>"; };
+		FA247DFB23B6DE7100D72012 /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
+		FA247DFD23B6DFE200D72012 /* SignupStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupStartViewController.swift; sourceTree = "<group>"; };
+		FA27A76223DE2F4E00EC590C /* shark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shark.png; sourceTree = "<group>"; };
+		FA27A76423DE307E00EC590C /* SmilyShark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmilyShark.png; sourceTree = "<group>"; };
+		FA27A76623DE478600EC590C /* ghost02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost02.png; sourceTree = "<group>"; };
+		FA27A76723DE478600EC590C /* ghost01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost01.png; sourceTree = "<group>"; };
+		FA27A76823DE478700EC590C /* ghost03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost03.png; sourceTree = "<group>"; };
+		FA27A76D23DE4C8600EC590C /* soundscrate-evil-witch-laugh-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "soundscrate-evil-witch-laugh-02.mp3"; sourceTree = "<group>"; };
+		FA27A76E23DE4C8600EC590C /* soundscrate-evil-laugh-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "soundscrate-evil-laugh-01.mp3"; sourceTree = "<group>"; };
+		FA27A77123DE4F8100EC590C /* soundscrate-evil-witch-laugh-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "soundscrate-evil-witch-laugh-01.mp3"; sourceTree = "<group>"; };
+		FA27A79423E243FC00EC590C /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		FA41834823D514EB0003262E /* coloringData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = coloringData.plist; sourceTree = "<group>"; };
+		FA41834923D514EB0003262E /* fontingData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fontingData.plist; sourceTree = "<group>"; };
+		FA41835523D5B78B0003262E /* inter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = inter; sourceTree = "<group>"; };
+		FA41835723D5BB0E0003262E /* New_Hero */ = {isa = PBXFileReference; lastKnownFileType = folder; path = New_Hero; sourceTree = "<group>"; };
+		FA4F9AB423D69C27002DD1FC /* WelcomePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomePage.xib; sourceTree = "<group>"; };
+		FA4F9AB823D6B429002DD1FC /* canada-flag-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canada-flag-small.png"; sourceTree = "<group>"; };
+		FA4F9ABA23D6B8B6002DD1FC /* SignupWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWelcomeViewController.swift; sourceTree = "<group>"; };
+		FA4F9ABC23D6B8F5002DD1FC /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		FA4F9ABE23D6C8CF002DD1FC /* SignupVerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVerifyViewController.swift; sourceTree = "<group>"; };
+		FA4F9AC023D6D162002DD1FC /* VerifyPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyPage.xib; sourceTree = "<group>"; };
+		FA4F9AC123D6D163002DD1FC /* InfoPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoPage.xib; sourceTree = "<group>"; };
+		FA4F9AC423D6DD95002DD1FC /* CongratPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CongratPage.xib; sourceTree = "<group>"; };
+		FA4F9AC523D6DD95002DD1FC /* PassPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassPage.xib; sourceTree = "<group>"; };
+		FA4F9ACA23D96AE1002DD1FC /* VerifyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPage.swift; sourceTree = "<group>"; };
+		FA4F9ACC23D96AFE002DD1FC /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		FA4F9ACE23D96B1C002DD1FC /* CongratPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratPage.swift; sourceTree = "<group>"; };
+		FA4F9AD023D96B2A002DD1FC /* PassPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassPage.swift; sourceTree = "<group>"; };
+		FA4F9AD423D96C9D002DD1FC /* SignupInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupInfoViewController.swift; sourceTree = "<group>"; };
+		FA4F9AD623D96CB3002DD1FC /* SignupPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPassViewController.swift; sourceTree = "<group>"; };
+		FA4F9AD823D96CCF002DD1FC /* SignupCongratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupCongratViewController.swift; sourceTree = "<group>"; };
+		FA7F7F7723C3EE6800CDBD95 /* languagingData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = languagingData.plist; sourceTree = "<group>"; };
+		FA9D21F023EF3F5F00E7467B /* Auth0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth0.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA247DB323B1A2FD00D72012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF012F0A1B81A154D296D44 /* Pods_RydeSplit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA247DCA23B1A2FF00D72012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA247DD523B1A2FF00D72012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB62AA8E6D007B22740D5DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BA995A37B75DF9C5F7DB8DD /* Pods-RydeSplit.debug.xcconfig */,
+				7A25FB09773EE734EF5FF62C /* Pods-RydeSplit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA69487473FB5667DBB305AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A396BEB7125C601FFF8B636A /* Pods_RydeSplit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0CC5B223D9896900B706FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC5D223D9975900B706FC /* EmailLoginPage.xib */,
+				FA0CC5CC23D9965F00B706FC /* EmailLoginPage.swift */,
+				FA0CC5D423D9975900B706FC /* SocialLoginPage.xib */,
+				FA0CC5CE23D9967800B706FC /* SocialLoginPage.swift */,
+				FA0CC5D323D9975900B706FC /* LoginInfoPage.xib */,
+				FA0CC5D023D9968B00B706FC /* LoginInfoPage.swift */,
+				FA1C63C623E550950033BE2A /* SocialLoginPageTest.xib */,
+				FA1C63C823E550CA0033BE2A /* SocialLoginPageTest.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA0CC5BF23D9950B00B706FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC5C023D9953F00B706FC /* LoginByEmailViewController.swift */,
+				FA0CC5C223D9955F00B706FC /* LoginBySocialViewController.swift */,
+				FA0CC5C423D9959F00B706FC /* LoginConfirmInfoViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FA0CC5FF23DA492E00B706FC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FA9D21F023EF3F5F00E7467B /* Auth0.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FA0CC60223DBF36300B706FC /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC60A23DBF6FF00B706FC /* SettingViewController.swift */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		FA0CC60523DBF53900B706FC /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC60623DBF59400B706FC /* SettingPage.xib */,
+				FA0CC60823DBF5CA00B706FC /* SettingPage.swift */,
+			);
+			name = Setting;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA247DAD23B1A2FD00D72012 = {
+			isa = PBXGroup;
+			children = (
+				FA247DB823B1A2FD00D72012 /* RydeSplit */,
+				FA247DD023B1A2FF00D72012 /* RydeSplitTests */,
+				FA247DDB23B1A2FF00D72012 /* RydeSplitUITests */,
+				FA247DB723B1A2FD00D72012 /* Products */,
+				BBB62AA8E6D007B22740D5DC /* Pods */,
+				CA69487473FB5667DBB305AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA247DB723B1A2FD00D72012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA247DB623B1A2FD00D72012 /* RydeSplit.app */,
+				FA247DCD23B1A2FF00D72012 /* RydeSplitTests.xctest */,
+				FA247DD823B1A2FF00D72012 /* RydeSplitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA247DB823B1A2FD00D72012 /* RydeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				FA0CC5FF23DA492E00B706FC /* model */,
+				FA41835223D5B6530003262E /* fonts */,
+				FA7F7F7323C3EE4E00CDBD95 /* intial */,
+				FA247DF623B6D89900D72012 /* ViewController */,
+				FA247DF523B6D87600D72012 /* View */,
+				FA247DF023B5ADB400D72012 /* UI */,
+				FA247DEB23B1A35100D72012 /* extentions */,
+				FA247DEA23B1A34000D72012 /* images */,
+				FA27A76C23DE4C7600EC590C /* sounds */,
+				FA247DB923B1A2FD00D72012 /* AppDelegate.swift */,
+				FA247DBB23B1A2FD00D72012 /* ViewController.swift */,
+				FA247DC323B1A2FF00D72012 /* Assets.xcassets */,
+				FA247DC823B1A2FF00D72012 /* Info.plist */,
+				FA27A79423E243FC00EC590C /* Auth0.plist */,
+				FA247DC023B1A2FD00D72012 /* RydeSplit.xcdatamodeld */,
+			);
+			path = RydeSplit;
+			sourceTree = "<group>";
+		};
+		FA247DD023B1A2FF00D72012 /* RydeSplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA247DD123B1A2FF00D72012 /* RydeSplitTests.swift */,
+				FA247DD323B1A2FF00D72012 /* Info.plist */,
+			);
+			path = RydeSplitTests;
+			sourceTree = "<group>";
+		};
+		FA247DDB23B1A2FF00D72012 /* RydeSplitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA247DDC23B1A2FF00D72012 /* RydeSplitUITests.swift */,
+				FA247DDE23B1A2FF00D72012 /* Info.plist */,
+			);
+			path = RydeSplitUITests;
+			sourceTree = "<group>";
+		};
+		FA247DEA23B1A34000D72012 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FA27A76723DE478600EC590C /* ghost01.png */,
+				FA27A76623DE478600EC590C /* ghost02.png */,
+				FA27A76823DE478700EC590C /* ghost03.png */,
+				FA0CC5BD23D9935F00B706FC /* png-check-3.png */,
+				FA27A76423DE307E00EC590C /* SmilyShark.png */,
+				FA27A76223DE2F4E00EC590C /* shark.png */,
+				FA0CC5B423D98D2800B706FC /* Feature01_Carpool.png */,
+				FA0CC5D923D99A2B00B706FC /* Facebook.png */,
+				FA0CC5DA23D99A2B00B706FC /* Google.png */,
+				FA0CC5D823D99A2B00B706FC /* Twitter.png */,
+				FA0CC5B523D98D2800B706FC /* Feature02_SplitCost.png */,
+				FA0CC5B323D98D2800B706FC /* Feature03_ScheduleRide.png */,
+				FA4F9AB823D6B429002DD1FC /* canada-flag-small.png */,
+				FA0CC5BB23D98EA400B706FC /* congrats.png */,
+				FA247DF923B6DC4D00D72012 /* illustration.png */,
+				FA247DEE23B5A88C00D72012 /* RYLOGO.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FA247DEB23B1A35100D72012 /* extentions */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C63C423E545FA0033BE2A /* SessionManager.swift */,
+			);
+			path = extentions;
+			sourceTree = "<group>";
+		};
+		FA247DF023B5ADB400D72012 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FA247DF523B6D87600D72012 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA247DC523B1A2FF00D72012 /* LaunchScreen.storyboard */,
+				FA247DBD23B1A2FD00D72012 /* Main.storyboard */,
+				FA247DF723B6D91A00D72012 /* Features.xib */,
+				FA247DFB23B6DE7100D72012 /* Features.swift */,
+				FAB28F5B23ECE4FA00F8BAFD /* MainPage */,
+				FA4F9AD323D96C3F002DD1FC /* Signup */,
+				FA0CC5B223D9896900B706FC /* Login */,
+				FA0CC60523DBF53900B706FC /* Setting */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA247DF623B6D89900D72012 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA247DFD23B6DFE200D72012 /* SignupStartViewController.swift */,
+				FAB28F5A23ECE4DC00F8BAFD /* MainPage */,
+				FA4F9AD223D96BCE002DD1FC /* Signup */,
+				FA0CC5BF23D9950B00B706FC /* Login */,
+				FA0CC60223DBF36300B706FC /* Setting */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FA27A76C23DE4C7600EC590C /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FA27A76E23DE4C8600EC590C /* soundscrate-evil-laugh-01.mp3 */,
+				FA27A77123DE4F8100EC590C /* soundscrate-evil-witch-laugh-01.mp3 */,
+				FA27A76D23DE4C8600EC590C /* soundscrate-evil-witch-laugh-02.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		FA41835223D5B6530003262E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA41835723D5BB0E0003262E /* New_Hero */,
+				FA41835523D5B78B0003262E /* inter */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		FA4F9AD223D96BCE002DD1FC /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				FA4F9ABA23D6B8B6002DD1FC /* SignupWelcomeViewController.swift */,
+				FA4F9ABE23D6C8CF002DD1FC /* SignupVerifyViewController.swift */,
+				FA4F9AD423D96C9D002DD1FC /* SignupInfoViewController.swift */,
+				FA4F9AD623D96CB3002DD1FC /* SignupPassViewController.swift */,
+				FA4F9AD823D96CCF002DD1FC /* SignupCongratViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		FA4F9AD323D96C3F002DD1FC /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				FA4F9AB423D69C27002DD1FC /* WelcomePage.xib */,
+				FA4F9ABC23D6B8F5002DD1FC /* WelcomePage.swift */,
+				FA4F9AC023D6D162002DD1FC /* VerifyPage.xib */,
+				FA4F9ACA23D96AE1002DD1FC /* VerifyPage.swift */,
+				FA4F9AC123D6D163002DD1FC /* InfoPage.xib */,
+				FA4F9ACC23D96AFE002DD1FC /* InfoPage.swift */,
+				FA4F9AC523D6DD95002DD1FC /* PassPage.xib */,
+				FA4F9AD023D96B2A002DD1FC /* PassPage.swift */,
+				FA4F9AC423D6DD95002DD1FC /* CongratPage.xib */,
+				FA4F9ACE23D96B1C002DD1FC /* CongratPage.swift */,
+			);
+			name = Signup;
+			sourceTree = "<group>";
+		};
+		FA7F7F7323C3EE4E00CDBD95 /* intial */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7F7723C3EE6800CDBD95 /* languagingData.plist */,
+				FA41834923D514EB0003262E /* fontingData.plist */,
+				FA41834823D514EB0003262E /* coloringData.plist */,
+			);
+			path = intial;
+			sourceTree = "<group>";
+		};
+		FAB28F5A23ECE4DC00F8BAFD /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		FAB28F5B23ECE4FA00F8BAFD /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA247DB523B1A2FD00D72012 /* RydeSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA247DE123B1A2FF00D72012 /* Build configuration list for PBXNativeTarget "RydeSplit" */;
+			buildPhases = (
+				94F442570D8F5AAFE3B99CF8 /* [CP] Check Pods Manifest.lock */,
+				FA247DB223B1A2FD00D72012 /* Sources */,
+				FA247DB323B1A2FD00D72012 /* Frameworks */,
+				FA247DB423B1A2FD00D72012 /* Resources */,
+				7A56027CB38308365E88F8C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RydeSplit;
+			productName = RydeSplit;
+			productReference = FA247DB623B1A2FD00D72012 /* RydeSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA247DCC23B1A2FF00D72012 /* RydeSplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA247DE423B1A2FF00D72012 /* Build configuration list for PBXNativeTarget "RydeSplitTests" */;
+			buildPhases = (
+				FA247DC923B1A2FF00D72012 /* Sources */,
+				FA247DCA23B1A2FF00D72012 /* Frameworks */,
+				FA247DCB23B1A2FF00D72012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA247DCF23B1A2FF00D72012 /* PBXTargetDependency */,
+			);
+			name = RydeSplitTests;
+			productName = RydeSplitTests;
+			productReference = FA247DCD23B1A2FF00D72012 /* RydeSplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA247DD723B1A2FF00D72012 /* RydeSplitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA247DE723B1A2FF00D72012 /* Build configuration list for PBXNativeTarget "RydeSplitUITests" */;
+			buildPhases = (
+				FA247DD423B1A2FF00D72012 /* Sources */,
+				FA247DD523B1A2FF00D72012 /* Frameworks */,
+				FA247DD623B1A2FF00D72012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA247DDA23B1A2FF00D72012 /* PBXTargetDependency */,
+			);
+			name = RydeSplitUITests;
+			productName = RydeSplitUITests;
+			productReference = FA247DD823B1A2FF00D72012 /* RydeSplitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA247DAE23B1A2FD00D72012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = RydeSplit;
+				TargetAttributes = {
+					FA247DB523B1A2FD00D72012 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FA247DCC23B1A2FF00D72012 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA247DB523B1A2FD00D72012;
+					};
+					FA247DD723B1A2FF00D72012 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA247DB523B1A2FD00D72012;
+					};
+				};
+			};
+			buildConfigurationList = FA247DB123B1A2FD00D72012 /* Build configuration list for PBXProject "RydeSplit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA247DAD23B1A2FD00D72012;
+			productRefGroup = FA247DB723B1A2FD00D72012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA247DB523B1A2FD00D72012 /* RydeSplit */,
+				FA247DCC23B1A2FF00D72012 /* RydeSplitTests */,
+				FA247DD723B1A2FF00D72012 /* RydeSplitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA247DB423B1A2FD00D72012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0CC5BC23D98EA400B706FC /* congrats.png in Resources */,
+				FA247DC723B1A2FF00D72012 /* LaunchScreen.storyboard in Resources */,
+				FA27A76F23DE4C8600EC590C /* soundscrate-evil-witch-laugh-02.mp3 in Resources */,
+				FA0CC5D723D9975900B706FC /* SocialLoginPage.xib in Resources */,
+				FA0CC5D523D9975900B706FC /* EmailLoginPage.xib in Resources */,
+				FA4F9AC323D6D163002DD1FC /* InfoPage.xib in Resources */,
+				FA27A77223DE4F8100EC590C /* soundscrate-evil-witch-laugh-01.mp3 in Resources */,
+				FA27A76A23DE478700EC590C /* ghost01.png in Resources */,
+				FA27A76923DE478700EC590C /* ghost02.png in Resources */,
+				FA4F9AC223D6D163002DD1FC /* VerifyPage.xib in Resources */,
+				FA41834B23D514EB0003262E /* fontingData.plist in Resources */,
+				FA4F9AB523D69C27002DD1FC /* WelcomePage.xib in Resources */,
+				FA247DF823B6D91A00D72012 /* Features.xib in Resources */,
+				FA4F9AC623D6DD95002DD1FC /* CongratPage.xib in Resources */,
+				FA27A76B23DE478700EC590C /* ghost03.png in Resources */,
+				FA27A79523E243FC00EC590C /* Auth0.plist in Resources */,
+				FA247DEF23B5A88C00D72012 /* RYLOGO.png in Resources */,
+				FA247DFA23B6DC4D00D72012 /* illustration.png in Resources */,
+				FA41835623D5B78C0003262E /* inter in Resources */,
+				FA0CC5DC23D99A2B00B706FC /* Facebook.png in Resources */,
+				FA0CC5B823D98D2800B706FC /* Feature02_SplitCost.png in Resources */,
+				FA0CC5DB23D99A2B00B706FC /* Twitter.png in Resources */,
+				FA4F9AC723D6DD95002DD1FC /* PassPage.xib in Resources */,
+				FA0CC5BE23D9935F00B706FC /* png-check-3.png in Resources */,
+				FA41835823D5BB0E0003262E /* New_Hero in Resources */,
+				FA0CC5DD23D99A2B00B706FC /* Google.png in Resources */,
+				FA0CC60723DBF59400B706FC /* SettingPage.xib in Resources */,
+				FA27A76523DE307E00EC590C /* SmilyShark.png in Resources */,
+				FA4F9AB923D6B429002DD1FC /* canada-flag-small.png in Resources */,
+				FA0CC5B723D98D2800B706FC /* Feature01_Carpool.png in Resources */,
+				FA7F7F7E23C3EE6900CDBD95 /* languagingData.plist in Resources */,
+				FA0CC5B623D98D2800B706FC /* Feature03_ScheduleRide.png in Resources */,
+				FA27A76323DE2F4E00EC590C /* shark.png in Resources */,
+				FA0CC5D623D9975900B706FC /* LoginInfoPage.xib in Resources */,
+				FA1C63C723E550950033BE2A /* SocialLoginPageTest.xib in Resources */,
+				FA247DC423B1A2FF00D72012 /* Assets.xcassets in Resources */,
+				FA247DBF23B1A2FD00D72012 /* Main.storyboard in Resources */,
+				FA41834A23D514EB0003262E /* coloringData.plist in Resources */,
+				FA27A77023DE4C8600EC590C /* soundscrate-evil-laugh-01.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA247DCB23B1A2FF00D72012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA247DD623B1A2FF00D72012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A56027CB38308365E88F8C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RydeSplit/Pods-RydeSplit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RydeSplit/Pods-RydeSplit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RydeSplit/Pods-RydeSplit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94F442570D8F5AAFE3B99CF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RydeSplit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA247DB223B1A2FD00D72012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0CC5C123D9953F00B706FC /* LoginByEmailViewController.swift in Sources */,
+				FA0CC5CF23D9967800B706FC /* SocialLoginPage.swift in Sources */,
+				FA4F9AD723D96CB3002DD1FC /* SignupPassViewController.swift in Sources */,
+				FA0CC60B23DBF6FF00B706FC /* SettingViewController.swift in Sources */,
+				FA4F9ACD23D96AFE002DD1FC /* InfoPage.swift in Sources */,
+				FA1C63C923E550CA0033BE2A /* SocialLoginPageTest.swift in Sources */,
+				FA0CC5CD23D9965F00B706FC /* EmailLoginPage.swift in Sources */,
+				FA9D21F123EF3F5F00E7467B /* Auth0.swift in Sources */,
+				FA1C63C523E545FA0033BE2A /* SessionManager.swift in Sources */,
+				FA4F9ABF23D6C8CF002DD1FC /* SignupVerifyViewController.swift in Sources */,
+				FA4F9ACF23D96B1C002DD1FC /* CongratPage.swift in Sources */,
+				FA4F9AD523D96C9D002DD1FC /* SignupInfoViewController.swift in Sources */,
+				FA247DFC23B6DE7100D72012 /* Features.swift in Sources */,
+				FA0CC5C523D9959F00B706FC /* LoginConfirmInfoViewController.swift in Sources */,
+				FA0CC5C323D9955F00B706FC /* LoginBySocialViewController.swift in Sources */,
+				FA247DBC23B1A2FD00D72012 /* ViewController.swift in Sources */,
+				FA247DC223B1A2FD00D72012 /* RydeSplit.xcdatamodeld in Sources */,
+				FA247DFE23B6DFE200D72012 /* SignupStartViewController.swift in Sources */,
+				FA0CC5D123D9968B00B706FC /* LoginInfoPage.swift in Sources */,
+				FA4F9ABB23D6B8B6002DD1FC /* SignupWelcomeViewController.swift in Sources */,
+				FA4F9ABD23D6B8F5002DD1FC /* WelcomePage.swift in Sources */,
+				FA4F9ACB23D96AE1002DD1FC /* VerifyPage.swift in Sources */,
+				FA4F9AD923D96CCF002DD1FC /* SignupCongratViewController.swift in Sources */,
+				FA0CC60923DBF5CA00B706FC /* SettingPage.swift in Sources */,
+				FA247DBA23B1A2FD00D72012 /* AppDelegate.swift in Sources */,
+				FA4F9AD123D96B2A002DD1FC /* PassPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA247DC923B1A2FF00D72012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA247DD223B1A2FF00D72012 /* RydeSplitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA247DD423B1A2FF00D72012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA247DDD23B1A2FF00D72012 /* RydeSplitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA247DCF23B1A2FF00D72012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA247DB523B1A2FD00D72012 /* RydeSplit */;
+			targetProxy = FA247DCE23B1A2FF00D72012 /* PBXContainerItemProxy */;
+		};
+		FA247DDA23B1A2FF00D72012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA247DB523B1A2FD00D72012 /* RydeSplit */;
+			targetProxy = FA247DD923B1A2FF00D72012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA247DBD23B1A2FD00D72012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA247DBE23B1A2FD00D72012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA247DC523B1A2FF00D72012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA247DC623B1A2FF00D72012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA247DDF23B1A2FF00D72012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FA247DE023B1A2FF00D72012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA247DE223B1A2FF00D72012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA995A37B75DF9C5F7DB8DD /* Pods-RydeSplit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8576GWLC4L;
+				INFOPLIST_FILE = RydeSplit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.hatami.amir.RydeSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA247DE323B1A2FF00D72012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A25FB09773EE734EF5FF62C /* Pods-RydeSplit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8576GWLC4L;
+				INFOPLIST_FILE = RydeSplit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.hatami.amir.RydeSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA247DE523B1A2FF00D72012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29BJ3MZQW5;
+				INFOPLIST_FILE = RydeSplitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart.ca.-RydeSplit.RydeSplitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RydeSplit.app/RydeSplit";
+			};
+			name = Debug;
+		};
+		FA247DE623B1A2FF00D72012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29BJ3MZQW5;
+				INFOPLIST_FILE = RydeSplitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart.ca.-RydeSplit.RydeSplitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RydeSplit.app/RydeSplit";
+			};
+			name = Release;
+		};
+		FA247DE823B1A2FF00D72012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29BJ3MZQW5;
+				INFOPLIST_FILE = RydeSplitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart.ca.-RydeSplit.RydeSplitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RydeSplit;
+			};
+			name = Debug;
+		};
+		FA247DE923B1A2FF00D72012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29BJ3MZQW5;
+				INFOPLIST_FILE = RydeSplitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart.ca.-RydeSplit.RydeSplitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RydeSplit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA247DB123B1A2FD00D72012 /* Build configuration list for PBXProject "RydeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA247DDF23B1A2FF00D72012 /* Debug */,
+				FA247DE023B1A2FF00D72012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA247DE123B1A2FF00D72012 /* Build configuration list for PBXNativeTarget "RydeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA247DE223B1A2FF00D72012 /* Debug */,
+				FA247DE323B1A2FF00D72012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA247DE423B1A2FF00D72012 /* Build configuration list for PBXNativeTarget "RydeSplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA247DE523B1A2FF00D72012 /* Debug */,
+				FA247DE623B1A2FF00D72012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA247DE723B1A2FF00D72012 /* Build configuration list for PBXNativeTarget "RydeSplitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA247DE823B1A2FF00D72012 /* Debug */,
+				FA247DE923B1A2FF00D72012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA247DC023B1A2FD00D72012 /* RydeSplit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA247DC123B1A2FD00D72012 /* RydeSplit.xcdatamodel */,
+			);
+			currentVersion = FA247DC123B1A2FD00D72012 /* RydeSplit.xcdatamodel */;
+			path = RydeSplit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA247DAE23B1A2FD00D72012 /* Project object */;
+}
