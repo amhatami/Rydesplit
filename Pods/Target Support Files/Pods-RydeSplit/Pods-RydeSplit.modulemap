@@ -1,0 +1,6 @@
+framework module Pods_RydeSplit {
+  umbrella header "Pods-RydeSplit-umbrella.h"
+
+  export *
+  module * { export * }
+}
