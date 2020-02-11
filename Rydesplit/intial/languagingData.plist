@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>signup</key>
+	<dict>
+		<key>page</key>
+		<dict>
+			<key>text_en</key>
+			<string>Learn</string>
+			<key>text_fr</key>
+			<string>Apprendre</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+		<key>title</key>
+		<dict>
+			<key>text_en</key>
+			<string>welcome:Welcome to↫Rydesplit|verify:Verify your↫phone number|info:Your name↫and Email?|pass:Set you↫password|congrat:Congrats!↫Let&apos;s carpol</string>
+			<key>text_fr</key>
+			<string>welcome:Bienvenue à↫Rydesplit|verify:Vérifiez votre↫numéro de téléphone|info:Votre nom et↫email?|pass:Définir votre↫mot de passe|congrat:Félicitations!↫Faisons du covoiturage</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+		<key>main_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>signupbtn:SIGN UP|loginbtn:LOGIN|continuebtn:CONTINUE</string>
+			<key>text_fr</key>
+			<string>signupbtn:S&apos;INSCRIRE|loginbtn:S&apos;IDENTIFIER|continuebtn:CONTINUER</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+		<key>sub_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>welcomel1:Enter your phone number to get started|welcomel2:Continue with social network|welcomel3:By clicking CONTINUE you agree to the Terms and Conditions.
+|verifyl1:Enter the 4-digit code sent to you at|sendCodeBtn:Resend code
+|infol1:We don’t share your information to any third parties.|infol2:I want to get our news, updates, and deals.
+|passl1:At least 8 characters|passl2:NA
+|congratl1:Thank you for setting up your account. Let’s explore our carpool network.|congratl2:NA</string>
+			<key>text_fr</key>
+			<string>welcomel1:Entrez votre numéro de téléphone pour commencer|welcomel2:Continuer avec le réseau social|welcomel3:By clicking CONTINUE you agree to the Terms and Conditions.
+|verifyl1:Entrez le code à 4 chiffres qui vous a été envoyé à|sendCodeBtn:Renvoyer le code
+|infol1:Nous ne partageons pas vos informations avec des tiers.|infol2:I want to get our news, updates, and deals.
+|passl1:Au moins 8 caractères|passl2:NA
+|congratl1:Merci d&apos;avoir créé votre compte. Explorons notre réseau de covoiturage.|congratl2:NA</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+		<key>seg_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Robot</string>
+			<key>text_fr</key>
+			<string>Robot</string>
+			<key>text_de</key>
+			<string>Roboter</string>
+			<key>text_es</key>
+			<string>Robot</string>
+			<key>text_it</key>
+			<string>Robot</string>
+			<key>text_pe</key>
+			<string>ربات</string>
+		</dict>
+		<key>lcd</key>
+		<dict>
+			<key>text_en</key>
+			<string>feature1img:Feature01_Carpool.png|feature2img:Feature02_SplitCost.png|feature3img:Feature03_ScheduleRide.png</string>
+			<key>text_fr</key>
+			<string>feature1img:Feature01_Carpool.png|feature2img:Feature02_SplitCost.png|feature3img:Feature03_ScheduleRide.png</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+		<key>key_array</key>
+		<dict>
+			<key>text_en</key>
+			<string>times:times|page:page|feature1t:CARPOOL WITH↫NEIGHBOURS|feature1st:Find neighbours from your area↫and carpool with them
+|feature2t:SPLIT COST, SHARE↫FUN|feature2st:Save your cost by splitting seats and↫have fun with co-ryders
+|feature3t:SCHEDULE YOUR↫RIDE|feature3st:Set schedule with locations and times,↫and we find the best matches for you</string>
+			<key>text_fr</key>
+			<string>times:fois|page:page|feature1t:CARPOOL AVEC↫VOISINS|feature1st:Trouvez des voisins de votre région↫et faites du covoiturage avec eux
+|feature2t:COÛT RÉPARTI, PARTAGEZ↫LE PLAISIR|feature2st:Économisez vos coûts en divisant↫les sièges et amusez-vous avec les co-ryders
+|feature3t:PLANIFIEZ VOTRE↫VOYAGE|feature3st:Fixez un calendrier avec des lieux et des heures,↫et nous trouvons les meilleurs matchs pour vous</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>learnPage</key>
+	<dict>
+		<key>page</key>
+		<dict>
+			<key>text_en</key>
+			<string>Learn</string>
+			<key>text_fr</key>
+			<string>Apprendre</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+		<key>title</key>
+		<dict>
+			<key>text_en</key>
+			<string>Learn</string>
+			<key>text_fr</key>
+			<string>Apprendre</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+		<key>main_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>NA</string>
+			<key>text_fr</key>
+			<string>NA</string>
+			<key>text_de</key>
+			<string>NA</string>
+			<key>text_es</key>
+			<string>NA</string>
+			<key>text_it</key>
+			<string>NA</string>
+			<key>text_pe</key>
+			<string>NA</string>
+		</dict>
+		<key>sub_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>NA</string>
+			<key>text_fr</key>
+			<string>NA</string>
+			<key>text_de</key>
+			<string>NA</string>
+			<key>text_es</key>
+			<string>NA</string>
+			<key>text_it</key>
+			<string>NA</string>
+			<key>text_pe</key>
+			<string>NA</string>
+		</dict>
+		<key>seg_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Robot</string>
+			<key>text_fr</key>
+			<string>Robot</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+		<key>lcd</key>
+		<dict>
+			<key>text_en</key>
+			<string>Tap on expression</string>
+			<key>text_fr</key>
+			<string>Appuyez sur l&apos;expression</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+		<key>key_array</key>
+		<dict>
+			<key>text_en</key>
+			<string>times:times|page:page</string>
+			<key>text_fr</key>
+			<string>times:fois|page:page</string>
+			<key>text_de</key>
+			<string></string>
+			<key>text_es</key>
+			<string></string>
+			<key>text_it</key>
+			<string></string>
+			<key>text_pe</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>testPage</key>
+	<dict>
+		<key>page</key>
+		<dict>
+			<key>text_en</key>
+			<string>page</string>
+			<key>text_fr</key>
+			<string>page</string>
+			<key>text_de</key>
+			<string>Seite</string>
+			<key>text_es</key>
+			<string>página</string>
+			<key>text_it</key>
+			<string>pagina</string>
+			<key>text_pe</key>
+			<string>صفحه</string>
+		</dict>
+		<key>title</key>
+		<dict>
+			<key>text_en</key>
+			<string>Test</string>
+			<key>text_fr</key>
+			<string>Tester</string>
+			<key>text_de</key>
+			<string>Prüfung</string>
+			<key>text_es</key>
+			<string>Prueba</string>
+			<key>text_it</key>
+			<string>prova</string>
+			<key>text_pe</key>
+			<string>تست</string>
+		</dict>
+		<key>main_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>sub_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Start new quiz</string>
+			<key>text_fr</key>
+			<string>Lancer un nouveau quiz</string>
+			<key>text_de</key>
+			<string>Neues Quiz starten</string>
+			<key>text_es</key>
+			<string>Iniciar nuevo cuestionario</string>
+			<key>text_it</key>
+			<string>Inizia un nuovo quiz</string>
+			<key>text_pe</key>
+			<string>مسابقه جدید را شروع کنید</string>
+		</dict>
+		<key>seg_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>lcd</key>
+		<dict>
+			<key>text_en</key>
+			<string>Tap on answer</string>
+			<key>text_fr</key>
+			<string>Appuyez sur la réponse</string>
+			<key>text_de</key>
+			<string>Tippen Sie auf Antwort</string>
+			<key>text_es</key>
+			<string>Toca la respuesta</string>
+			<key>text_it</key>
+			<string>Tocca su risposta</string>
+			<key>text_pe</key>
+			<string>روی جواب ضربه بزنید</string>
+		</dict>
+		<key>key_array</key>
+		<dict>
+			<key>text_en</key>
+			<string>times:times|page:page|correct:correct|wrong:wrong|missed:missed|legend:legend|answer:answer</string>
+			<key>text_fr</key>
+			<string>times:fois|page:page|correct:correct|wrong:incorrect|missed:manquée|legend:Légende|answer:Répondre</string>
+			<key>text_de</key>
+			<string>times:mal|page:seite|correct:richtig|wrong:falsch|missed:verpasst|legend:Legende|answer:Antworten</string>
+			<key>text_es</key>
+			<string>times:veces|page:página|correct:correcto|wrong:incorrecto|missed:perdido|legend:leyenda|answer:responder</string>
+			<key>text_it</key>
+			<string>times:volte|page:pagina|correct:corretto|wrong:scorretto|missed:perdere|legend:leggenda|answer:risposta</string>
+			<key>text_pe</key>
+			<string>times:بار|page:صفحه|correct:درست|wrong:غلط|missed:از دست رفته|egend:شرح|answer:پاسخ</string>
+		</dict>
+	</dict>
+	<key>statisticsPage</key>
+	<dict>
+		<key>page</key>
+		<dict>
+			<key>text_en</key>
+			<string>Learn</string>
+			<key>text_fr</key>
+			<string>Apprendre</string>
+			<key>text_de</key>
+			<string>Lernen</string>
+			<key>text_es</key>
+			<string>Aprender</string>
+			<key>text_it</key>
+			<string>Imparare</string>
+			<key>text_pe</key>
+			<string>یاد گرفتن</string>
+		</dict>
+		<key>title</key>
+		<dict>
+			<key>text_en</key>
+			<string>Status</string>
+			<key>text_fr</key>
+			<string>Statut</string>
+			<key>text_de</key>
+			<string>Status</string>
+			<key>text_es</key>
+			<string>Estado</string>
+			<key>text_it</key>
+			<string>Stato</string>
+			<key>text_pe</key>
+			<string>یاد گرفتن</string>
+		</dict>
+		<key>main_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>sub_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>seg_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>lcd</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>key_array</key>
+		<dict>
+			<key>text_en</key>
+			<string>times:times|page:page</string>
+			<key>text_fr</key>
+			<string>times:fois|page:page</string>
+			<key>text_de</key>
+			<string>times:mal|page:seite</string>
+			<key>text_es</key>
+			<string>times:veces|page:página</string>
+			<key>text_it</key>
+			<string>times:volte|page:pagina</string>
+			<key>text_pe</key>
+			<string>times:بار|page:صفحه</string>
+		</dict>
+	</dict>
+	<key>aboutPage</key>
+	<dict>
+		<key>page</key>
+		<dict>
+			<key>text_en</key>
+			<string>Learn</string>
+			<key>text_fr</key>
+			<string>Apprendre</string>
+			<key>text_de</key>
+			<string>Lernen</string>
+			<key>text_es</key>
+			<string>Aprender</string>
+			<key>text_it</key>
+			<string>Imparare</string>
+			<key>text_pe</key>
+			<string>یاد گرفتن</string>
+		</dict>
+		<key>title</key>
+		<dict>
+			<key>text_en</key>
+			<string>About</string>
+			<key>text_fr</key>
+			<string>À propos</string>
+			<key>text_de</key>
+			<string>über</string>
+			<key>text_es</key>
+			<string>Sobre</string>
+			<key>text_it</key>
+			<string>Riguardo</string>
+			<key>text_pe</key>
+			<string>یاد گرفتن</string>
+		</dict>
+		<key>main_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>CenturyTrail applications list</string>
+			<key>text_fr</key>
+			<string>CenturyTrail liste des applications</string>
+			<key>text_de</key>
+			<string>CenturyTrail Anwendungsliste</string>
+			<key>text_es</key>
+			<string>CenturyTrail lista de aplicaciones</string>
+			<key>text_it</key>
+			<string>CenturyTrail elenco delle applicazioni</string>
+			<key>text_pe</key>
+			<string>CenturyTrail لیست برنامه ها</string>
+		</dict>
+		<key>sub_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>seg_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>lcd</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>key_array</key>
+		<dict>
+			<key>text_en</key>
+			<string>times:times|page:page</string>
+			<key>text_fr</key>
+			<string>times:fois|page:page</string>
+			<key>text_de</key>
+			<string>times:mal|page:seite</string>
+			<key>text_es</key>
+			<string>times:veces|page:página</string>
+			<key>text_it</key>
+			<string>times:volte|page:pagina</string>
+			<key>text_pe</key>
+			<string>times:بار|page:صفحه</string>
+		</dict>
+	</dict>
+	<key>settingsPage</key>
+	<dict>
+		<key>page</key>
+		<dict>
+			<key>text_en</key>
+			<string>Learn</string>
+			<key>text_fr</key>
+			<string>Apprendre</string>
+			<key>text_de</key>
+			<string>Lernen</string>
+			<key>text_es</key>
+			<string>Aprender</string>
+			<key>text_it</key>
+			<string>Imparare</string>
+			<key>text_pe</key>
+			<string>یاد گرفتن</string>
+		</dict>
+		<key>title</key>
+		<dict>
+			<key>text_en</key>
+			<string>Settings</string>
+			<key>text_fr</key>
+			<string>Paramètres</string>
+			<key>text_de</key>
+			<string>Die Einstellungen</string>
+			<key>text_es</key>
+			<string>Configuraciones</string>
+			<key>text_it</key>
+			<string>Impostazioni</string>
+			<key>text_pe</key>
+			<string>تنظیمات</string>
+		</dict>
+		<key>main_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>NA</string>
+			<key>text_fr</key>
+			<string>NA</string>
+			<key>text_de</key>
+			<string>NA</string>
+			<key>text_es</key>
+			<string>NA</string>
+			<key>text_it</key>
+			<string>NA</string>
+			<key>text_pe</key>
+			<string>NA</string>
+		</dict>
+		<key>sub_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>NA</string>
+			<key>text_fr</key>
+			<string>NA</string>
+			<key>text_de</key>
+			<string>NA</string>
+			<key>text_es</key>
+			<string>NA</string>
+			<key>text_it</key>
+			<string>NA</string>
+			<key>text_pe</key>
+			<string>NA</string>
+		</dict>
+		<key>seg_menu</key>
+		<dict>
+			<key>text_en</key>
+			<string>Main Menu</string>
+			<key>text_fr</key>
+			<string>Main Menu</string>
+			<key>text_de</key>
+			<string>Main Menu</string>
+			<key>text_es</key>
+			<string>Main Menu</string>
+			<key>text_it</key>
+			<string>Main Menu</string>
+			<key>text_pe</key>
+			<string>Main Menu</string>
+		</dict>
+		<key>lcd</key>
+		<dict>
+			<key>text_en</key>
+			<string>NA</string>
+			<key>text_fr</key>
+			<string>NA</string>
+			<key>text_de</key>
+			<string>NA</string>
+			<key>text_es</key>
+			<string>NA</string>
+			<key>text_it</key>
+			<string>NA</string>
+			<key>text_pe</key>
+			<string>NA</string>
+		</dict>
+		<key>key_array</key>
+		<dict>
+			<key>text_en</key>
+			<string>seg01:Select language|seg02:Select color pattern|segquiznum:Select number of questions for Quiz|segquesnum:Select number of options for test|segtimer:Select timer length by seconds|btnone:Reset|btnall:Reset all data</string>
+			<key>text_fr</key>
+			<string>seg01:Choisir la langue|seg02:Sélectionnez le motif de couleur|segquiznum:Sélectionnez le nombre de questions pour le quiz|segquesnum:Sélectionnez le nombre d&apos;options pour le test|segtimer:Sélectionnez la durée du minuteur en secondes|btnone:Réinitialiser|btnall:Effacer tout</string>
+			<key>text_de</key>
+			<string>seg01:Sprache auswählen|seg02:Farbmuster auswählen|segquiznum:Wählen Sie die Anzahl der Fragen für das Quiz|segquesnum:Wählen Sie die Anzahl der zu testenden Optionen|segtimer:Wählen Sie die Timer-Länge in Sekunden|btnone:Zurücksetzen|btnall:Alles zurücksetzen</string>
+			<key>text_es</key>
+			<string>seg01:Seleccione el idioma|seg02:Seleccionar patrón de color|segquiznum:Seleccione el número de preguntas para el cuestionario|segquesnum:Seleccione la cantidad de opciones para la prueba|segtimer:Seleziona la durata del timer in secondi|btnone:Reiniciar|btnall:Resetear todo</string>
+			<key>text_it</key>
+			<string>seg01:Seleziona la lingua|seg02:Seleziona il modello di colore|segquiznum:Seleziona il numero di domande per il quiz|segquesnum:Seleziona il numero di opzioni per il test|segtimer:Seleziona la durata del timer in secondi|btnone:Ripristina|btnall:Resetta tutto</string>
+			<key>text_pe</key>
+			<string>seg01:زبان را انتخاب کنید|seg02:الگوی رنگ را انتخاب کنید|segquiznum:تعداد سؤالات را برای مسابقه انتخاب کنید|segquesnum:تعداد گزینه های آزمون را انتخاب کنید|segtimer:طول تایمر را بر حسب ثانیه انتخاب کنید|btnone:تنظیم مجدد|btnall:تنظیم مجدد همه داده ها</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
