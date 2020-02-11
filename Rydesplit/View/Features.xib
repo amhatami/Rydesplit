@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Hero New Bold.otf">
+            <string>HeroNew-Bold</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Features" customModule="RydeSplit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="550"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1Jc-5d-L2l">
+                    <rect key="frame" x="0.0" y="20" width="398" height="530"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="illustration.png" translatesAutoresizingMaskIntoConstraints="NO" id="izh-Sh-WZH">
+                            <rect key="frame" x="0.0" y="0.0" width="398" height="357.5"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sSi-82-pUk">
+                            <rect key="frame" x="0.0" y="357.5" width="398" height="172.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziC-k4-8fC">
+                                    <rect key="frame" x="0.0" y="0.0" width="398" height="86.5"/>
+                                    <string key="text">SCHEDULE YOUR
+RIDE</string>
+                                    <fontDescription key="fontDescription" name="HeroNew-Bold" family="Hero New" pointSize="24"/>
+                                    <color key="textColor" red="0.16078431372549018" green="0.14901960784313725" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnl-gv-LPB">
+                                    <rect key="frame" x="0.0" y="86.5" width="398" height="86"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">Set schedule with locations and times,
+and we find the best matches for you</string>
+                                    <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                    <color key="textColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="izh-Sh-WZH" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.65" id="TgJ-zZ-M5e"/>
+                <constraint firstAttribute="trailing" secondItem="1Jc-5d-L2l" secondAttribute="trailing" id="WjZ-wh-V0q"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1Jc-5d-L2l" secondAttribute="bottom" id="eyw-dM-Y7c"/>
+                <constraint firstItem="1Jc-5d-L2l" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="lkl-3n-G7J"/>
+                <constraint firstItem="1Jc-5d-L2l" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="pw7-dd-uKL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="featuresImage" destination="izh-Sh-WZH" id="Tzl-zt-ALp"/>
+                <outlet property="featuresText" destination="Rnl-gv-LPB" id="7MN-BW-4Mt"/>
+                <outlet property="featuresTitle" destination="ziC-k4-8fC" id="qsK-D4-m8A"/>
+            </connections>
+            <point key="canvasLocation" x="150.40000000000001" y="73.763118440779621"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="illustration.png" width="411" height="387"/>
+    </resources>
+</document>

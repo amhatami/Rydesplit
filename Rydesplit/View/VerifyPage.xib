@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Hero New SemiBold.otf">
+            <string>HeroNew-SemiBold</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VerifyPage" customModule="RydeSplit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="CKB-KN-FNJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="690"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify your phone Number" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cw-zL-WWY">
+                            <rect key="frame" x="0.0" y="0.0" width="268" height="138"/>
+                            <fontDescription key="fontDescription" name="HeroNew-SemiBold" family="Hero New" pointSize="36"/>
+                            <color key="textColor" red="0.16078431372549018" green="0.14901960784313725" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="sKB-vE-K5m">
+                            <rect key="frame" x="0.0" y="145" width="198" height="57.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Enter 4-digit code sent you at" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWb-Ky-EFu">
+                                    <rect key="frame" x="0.0" y="0.0" width="198" height="36.5"/>
+                                    <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                    <color key="textColor" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="(778)555-5555" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLY-uj-hE8">
+                                    <rect key="frame" x="0.0" y="36.5" width="101" height="17"/>
+                                    <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                    <color key="textColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="0.0" bottom="4" trailing="0.0"/>
+                        </stackView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mGL-kk-jge">
+                            <rect key="frame" x="0.0" y="209.5" width="275" height="30"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="go"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="canada-flag-small.png"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfx-oF-09A">
+                            <rect key="frame" x="0.0" y="246.5" width="90" height="30"/>
+                            <state key="normal" title="Resend code"/>
+                        </button>
+                        <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="naS-6A-vbL">
+                            <rect key="frame" x="0.0" y="283.5" width="375" height="406.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="mGL-kk-jge" secondAttribute="trailing" constant="100" id="GHb-rx-AdU"/>
+                        <constraint firstItem="sKB-vE-K5m" firstAttribute="height" secondItem="CKB-KN-FNJ" secondAttribute="height" multiplier="0.083" id="Gpz-Rg-eu1"/>
+                        <constraint firstItem="mGL-kk-jge" firstAttribute="leading" secondItem="CKB-KN-FNJ" secondAttribute="leading" id="MfC-v7-yFJ"/>
+                        <constraint firstItem="5cw-zL-WWY" firstAttribute="height" secondItem="CKB-KN-FNJ" secondAttribute="height" multiplier="0.2" id="b19-Me-eON"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="CKB-KN-FNJ" secondAttribute="bottom" id="FcJ-63-l8B"/>
+                <constraint firstItem="CKB-KN-FNJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="L4K-Xl-lDf"/>
+                <constraint firstAttribute="trailing" secondItem="CKB-KN-FNJ" secondAttribute="trailing" id="a3a-pY-4CU"/>
+                <constraint firstItem="CKB-KN-FNJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uw8-AT-z6x"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="codeTextField" destination="mGL-kk-jge" id="l1d-Gm-rjl"/>
+                <outlet property="phoneNumber" destination="LLY-uj-hE8" id="88l-iU-8cg"/>
+                <outlet property="sendCodeBtn" destination="Xfx-oF-09A" id="fkd-u0-b2x"/>
+                <outlet property="title" destination="5cw-zL-WWY" id="wPx-7H-w1C"/>
+                <outlet property="verifyl1" destination="PWb-Ky-EFu" id="HJm-Oj-C3H"/>
+            </connections>
+            <point key="canvasLocation" x="105.59999999999999" y="59.820089955022496"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="canada-flag-small.png" width="500" height="250"/>
+    </resources>
+</document>
